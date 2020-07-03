@@ -1,0 +1,63 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    /* display: grid;
+    grid-auto-rows: minmax(150px, auto); */
+    /* grid-template-columns:  */
+    height:100vh;
+    background: lightblue;
+    color: green;
+    /* justify-content: center;
+    grid-gap: .5em; */
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.col{
+    float: left;
+  width: 40%;
+  margin: 5%;
+}
+
+#entryHolder{
+    width:100%;
+    height:400px;
+    background-color: honeydew;
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button{
+    background: #0000cc;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    width:100%;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
